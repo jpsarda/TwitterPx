@@ -102,7 +102,7 @@ foreach ($twitterTokens->getTokens() as $k => $v) {
   echo '<a href="http://twitter.com/'.$k.'">@'.$k.'</a> <a href="?removetoken='.$k.'">[REMOVE]</a> ';
 }
 ?>
-
+<p>Author <a href="http://twitter.com/jpsarda">@jpsarda</a></p>
 <?php
 ob_end_flush();
 ?>
