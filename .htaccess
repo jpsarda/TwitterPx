@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on 
+
+RewriteRule   ^twitterpx/(.*)$   twitterpx/index.php?req=$1&%{QUERY_STRING} [L]
